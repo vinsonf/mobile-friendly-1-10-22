@@ -1,0 +1,48 @@
+/* Skin */
+
+.black-white {
+    background-color: blue;
+    color: yellow;
+}
+.primary-color {
+    background-color: red;
+}
+.secondary-color {
+    background-color: green;
+}
+/* Structore */
+
+.main-padding {
+    padding: 30px;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+.i-block {
+    display: inline-block;
+}
+.nav ul {
+    
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.sidebar {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 20px;
+}
+
