@@ -1,0 +1,52 @@
+h1 {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+h1:hover {
+    color: lightblue;
+    cursor: pointer;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
+
+
+
+input:enabled {
+    background-color: lime;
+}
+
+input:focus {
+    outline: none;
+    background-color: aqua;
+}
+
+input:disabled {
+    background-color: grey;
+}
+
+input[type="checkbox"] { /* change "blue" browser chrome to yellow */
+    filter: invert(100%) hue-rotate(40deg) brightness(1.7);
+}
+
+input:nth-child(4) {
+    border: 4px solid black;
+}
+
+input:not(.active){
+    background-color: yellow;
+}
+a{
+    position: relative;
+}
+a:hover::before {
+    content: attr(href);
+    position: absolute;
+    top: -1rem;
+}
