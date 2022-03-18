@@ -4,13 +4,13 @@
 }
 
 #hero h1 {
-  color: white;
+  color: #f7f0f0;
   font-size: 40px;
   font-family: "Arial";
 }
 
 #hero h1:hover {
-  color: red;
+  color: #22d2c0;
 }
 
 #hero p {
@@ -39,6 +39,10 @@ body {
 }
 
 #main h1 {
-  color: blue;
+  color: #c87ac8;
+}
+
+#main h1:hover {
+  color: #43958d;
 }
 /*# sourceMappingURL=style.css.map */

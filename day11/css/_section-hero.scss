@@ -2,11 +2,11 @@
     background-color: $colorPrimary;
     padding: $mainPadding;
     h1 {
-        color: white;
+        color: $white;
         font-size: 40px;
         font-family: $secondaryFont;
         &:hover {
-            color: red;
+            color: lighten($colorPrimary, 20%);
         }
      
     }

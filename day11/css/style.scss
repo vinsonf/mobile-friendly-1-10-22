@@ -3,6 +3,16 @@
 @import 'section-hero';
 @import 'img_tiger';
 
+
+@function lighten($color, $percent) {
+    @return mix(white, $color, $percent);
+}
+
+@function darken($color, $percent) {
+    @return mix(black, $color, $percent);
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -26,7 +36,10 @@ body {
     @include set-font;
     display: flex;
     h1{
-        color: blue;
+        color: rgb(200, 122, 200);
+    }
+    h1:hover {
+        color: lighten($colorPrimary, 20%);
     }
 }
 
